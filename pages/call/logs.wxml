@@ -1,0 +1,12 @@
+<!--pages/通讯录/logs.wxml-->
+<!-- <text>pages/通讯录/logs.wxml</text> -->
+<view id='main'>
+<input placeholder='搜索'></input>
+<view wx:for="{{array}}"  wx:key="aa" wx:for-item="message" class='msg'>
+    <image src='{{message.image}}'></image>
+     <navigator url='../find/to'> 
+       <text class='list'>{{message.info}}</text>
+    </navigator> 
+</view>
+   
+</view>

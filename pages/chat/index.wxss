@@ -1,0 +1,46 @@
+/* pages/微信/index.wxss */
+/* input{
+  width: 95%;
+  height: 30px;
+  text-align: center;
+  margin:10px auto;
+  box-sizing: border-box;
+  border: solid 1px lightgray;
+  border-radius:10px; 
+}*/
+image{
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.list{
+  height: 50px;
+  line-height: 50px;
+  width: float;
+  margin-left: 10px;
+}
+
+.time{
+   height: 50px;
+  line-height: 50px;
+  float: right;
+  color: grey;
+  font-size: 10px;
+}
+.msg:hover{
+   background: lightgray;
+}
+.msg{
+  overflow: hidden;
+} 
+
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}

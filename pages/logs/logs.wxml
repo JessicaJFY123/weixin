@@ -1,0 +1,16 @@
+<!--logs.wxml-->
+ <view class="container log-list"> 
+  <!-- <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block> -->
+  <view wx:for="{{tfboys}}">姓名：{{item.name}}</view>
+  <template is="header"></template>
+
+</view>
+
+<template name="header">
+   <view>
+      this is a header
+   </view>
+   
+</template>

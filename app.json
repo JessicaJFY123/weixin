@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/chat/index",
+    "pages/call/logs",
+    "pages/find/find",
+    "pages/me/me",
+    "pages/call/link",
+    "pages/find/to"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "green",
+    "backgroudColor": "black",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/chat/index",
+        "text": "微信",
+        "iconPath":"public/icons/chat-n.png",
+        "selectedIconPath":"public/icons/chat-a.png"
+      },
+      {
+        "pagePath": "pages/call/logs",
+        "text": "通讯录",
+        "iconPath": "public/icons/calls-n.png",
+        "selectedIconPath": "public/icons/calls-a.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "public/icons/finds-n.png",
+        "selectedIconPath": "public/icons/finds-a.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "public/icons/mes-n.png",
+        "selectedIconPath": "public/icons/mes-a.png"
+      }
+    ]
+  }
+
+}
+
