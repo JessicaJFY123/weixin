@@ -7,4 +7,4 @@
 ---
 >3、主要实现了微信聊天的功能
 ---
-![Alt text](app.json/public/icons/weixin-a.png)
+![Alt text](app.json/public/icons/call-a.png)
